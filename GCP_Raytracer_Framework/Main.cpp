@@ -8,7 +8,7 @@
 #include <vector>
 
 
-//MADE IT TO SLIDE 12!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 
 int main(int argc, char* argv[])
 {
