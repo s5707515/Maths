@@ -7,7 +7,7 @@
 
 #include <vector>
 
-
+//MADE IT TO PAGE 19
 
 
 int main(int argc, char* argv[])

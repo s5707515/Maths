@@ -5,7 +5,12 @@
 
 #include <iostream>
 
+struct RayIntersection
+{
+	bool m_isIntersection;
 
+	glm::vec3 m_closestIntersection;
+};
 
 class Sphere
 {
@@ -29,7 +34,7 @@ class Sphere
 			std::cout << "Sphere DTOR called" << std::endl;
 		}
 
-		bool RayIntersect(Ray ray);
+		RayIntersection RayIntersect(Ray ray);
 
 		glm::vec3 Shade(glm::vec3 intersection);
 
